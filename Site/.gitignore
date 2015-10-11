@@ -1,0 +1,54 @@
+# Ignore OS Related/Generic
+Thumbs.db
+Desktop.ini
+._*
+Icon?
+.DS_Store
+*.bak
+*.tmproj
+*.tmproject
+*~
+
+# IDEs project files/settings
+nbproject/
+nbactions.xml
+.settings/
+.project
+.metadata
+.properties
+
+# Ignore Bonfire Application Specifics
+application/logs/*
+!application/logs/index.html
+install/logs/*
+application/cache/*
+!application/cache/index.html
+public/assets/cache/*
+!public/assets/cache/index.html
+
+# Ignore Custom config files
+application/config/development/*
+application/config/testing/*
+application/config/production/*
+application/config/installed.txt
+
+# but leave the config folders there
+!application/config/development/index.html
+!application/config/testing/index.html
+!application/config/production/index.html
+
+# Remove PHPStorm Project folders
+bonfire/.ideas
+.idea/*
+
+
+# Ignore the installed.txt file
+public/install/installed.txt
+
+# Ignore any composer downloaded packages
+vendor/*
+
+# Ignore any sparks that have been loaded
+sparks/*
+
+public/static/*
