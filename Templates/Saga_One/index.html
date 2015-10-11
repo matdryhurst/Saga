@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        Template
+    </title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="img/ico" href="img/favicon.ico">
+    <link rel="SHORTCUT ICON" type="img/ico" href="img/favicon.ico">
+    <script src="js/jquery-1.9.1.min.js"></script>
+  
+    <script type="text/javascript" src="js/mobile-detect.min.js"></script>
+    <script type="text/javascript" src="js/jwplayer/jwplayer.js"></script>
+
+    <script type="text/javascript">
+    jwplayer.key = "aI2WDuWswDUI2wWxxavB5UAGDeWdhv7r/iJDig==";
+    </script>
+    <script src="js/popcorn-unobfuscated.js"></script>
+
+
+    <script src="js/site.js"></script>
+    <script type="text/javascript">
+        $(function(){            
+            $("#action").css("opacity", ".2");
+
+            $(".share").hover(function() {
+                    $("#action").stop().animate({
+                            opacity: .7
+                    }, "slow")
+                                      
+            });           
+
+            $(".share").mouseout(function() {
+                    $("#action").stop().animate({
+                            opacity: .2
+                    }, "slow")
+                                      
+            });
+
+        });
+    </script>
+
+
+
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body id='body'>
+    <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+
+
+    <!-- 16:9 aspect ratio -->
+    <div >
+         
+        <div id='myElement' style="display: none;">
+        </div>
+        <div class="imageOverlay" id="imageOverlayBack" >
+            
+        </div>
+        <div class="imageOverlay" id="imageOverlayFront" >
+            
+        </div>
+        
+        <div class="embed-responsive embed-responsive-16by9" id="responsive-div">
+
+            <video id="player" width="420" class="embed-responsive-item" controls preload='auto' poster="img/loader.jpg">
+                <source src="http://dqvf9djey1l3y.cloudfront.net/Saga_demo.mp4" type="video/mp4" class="vidplayer" >
+                    Your browser does not support HTML5 video.
+            </video>
+            
+            <div id="container-div" class="container text-center" style="width:80%;">
+                <div class="row textAreaDiv">
+                    <div class="col-sm-12">
+                        <table valign="middle" width="100%" height="100%" id="overlay_text">
+                            <tr>
+
+                                <td id="redArea1">
+                                    <span class="initialText">
+
+                    </span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="row textAreaDiv">
+                    <div class="col-sm-12">
+                        <table valign="middle" width="100%" height="100%" id="overlay_text">
+                            <tr>
+                                <td id="redArea2" >
+                                    <span class="initialText">
+
+                    </span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="row textAreaDiv">
+                    <div class="col-sm-12">
+                        <table valign="middle" width="100%" height="100%" id="overlay_text">
+                            <tr>
+                                <td id="redArea3">
+                                    <span class="initialText">
+
+                    </span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="row textAreaDiv">
+                    <div class="col-sm-12">
+                        <table valign="middle" width="100%" height="100%" id="overlay_text">
+                            <tr>
+                                <td id="redArea4">
+                                    <span class="initialText">
+
+                    </span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+            <div id='action'>
+                <a class='share' target="_blank" href=''><img src='img/saga-logo-white.png' />
+                </a>
+                <span class='sharetip' >Share/Embed</span>
+            </div>
+            <div class="input-group" id="title">
+                <input type="text" class="form-control text-center input-lg" value="This is the Heading">
+            </div>
+
+            <div class='popup' style="display:none">
+            <div class='inner'>
+                <h2>Embed Saga</h2>
+                <div class='right'>Size:
+                    <select id='size'>
+                        <option value='375|270'>375 &times; 270</option>
+                        <option value='500|360'>500 &times; 360</option>
+                        <option value='600|420'>600 &times; 420</option>
+                        <option value='800|561'>800 &times; 561</option>
+                        <option value="1280|720" selected>1280 &times 720</option>
+                    </select>
+                </div>
+                <textarea id='embedtext' disabled>
+                </textarea> 
+                <a id='tumblrtext' target='_blank' href='#' class='sharelink' title='Share on Tumblr'>Tumblr</a> 
+                <a class='sharelink' target='_blank' href='http://twitter.com/home/?status=Saga | Mat Dryhurst http://sa-ga.city'>Twitter</a> 
+                <a target='_blank' href='http://www.facebook.com/sharer/sharer.php?u=http://sa-ga.city' class='sharelink'>Facebook</a>
+                <a href='#' class='close'>&times;</a>
+            </div>
+        </div>
+        </div>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+
+        
+</body>
+
+</html>

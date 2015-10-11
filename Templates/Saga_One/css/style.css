@@ -1,0 +1,366 @@
+@import url(http://fonts.googleapis.com/css?family=Work+Sans);
+
+#redArea1 {
+padding-top: 1.5em;
+font-family: "arial narrow";font-size: 10vw;
+line-height: 12vw;
+font-weight: 300;
+letter-spacing: 4px;
+color: white;
+ -webkit-text-fill-color: white;
+-webkit-text-stroke: 2px black;
+}
+
+
+#redArea2{font-family: "arial narrow";
+*/border: 6px solid white;
+*/background-color: rgba(255,0,0,0.7);
+font-size: 10vw;
+line-height: 12vw;
+font-weight: 300;
+letter-spacing: 4px;
+color: white;
+  padding-top: 0.5em;
+ -webkit-text-fill-color: white;
+-webkit-text-stroke: 2px black;position:absolute; left:-40px;top:-30px;}
+
+#redArea3{font-family: "arial narrow";
+*/border: 6px solid white;
+*/background-color: rgba(255,0,0,0.7);
+font-size: 10vw;
+
+font-weight: 300;
+*/font-family:cursive;
+letter-spacing: 4px;
+color: white;
+ -webkit-text-fill-color: white;
+-webkit-text-stroke: 2px red;*/text-shadow: 2px 2px 28px rgba(0, 0, 0, 1);}
+
+#redArea4{font-family: "arial narrow";
+*/border: 6px solid white;
+*/background-color: rgba(255,0,0,0.7);
+font-size: 10vw;
+line-height: 12vw;
+font-weight: 300;
+letter-spacing: 4px;
+color: white;
+ -webkit-text-fill-color: white;
+-webkit-text-stroke: 2px black;position: absolute;
+top: -250px;}
+
+#overlay_text td {
+    padding-bottom: 1em;
+}
+#action {
+    z-index: 100;    
+    position: absolute;
+    line-height: 32px;
+    color: #fff;
+    text-decoration: none;
+    border: 0;
+    outline: 0;
+    bottom: 30px;
+    right: 10px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font: 18px/1.2 sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 1px;
+    color: #333;
+    overflow: hidden;
+}
+body {
+    background-color: transparent;
+    !important
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+#player {
+    width: 100%;  
+}
+#loader {} .share {
+    margin-right: 2px;    
+}
+.share img {
+    max-height: 100px;
+}
+.call img {
+    width: 40px;
+    height: 40px;    
+}
+a img {
+    border: 0;
+    outline: 0;
+}
+#title {
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+    width: 70%;
+    visibility: hidden; 
+}
+#title input {
+    font-size: 150%;    
+    color: black;
+}
+.popup {
+    position: fixed;
+    top: 100px;
+    left: 180px;
+    width: 100%;
+    height: 100%;
+    z-index: 2000;
+}
+.inner {
+    width: 100%;
+    height: 100%;
+    margin: 140 auto;
+    padding: 15px;
+    background: rgba(255, 255, 255, 1);
+    position: relative;
+    border: 2px solid black;
+}
+textarea {
+    display: block;
+    width: 100%;
+    height: 75px;
+    padding: 8px;
+    font: 14px/1.2 sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 1px;
+    color: #333;
+    margin-top: 0px;
+    border: 1px solid #999;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    text-decoration: none;
+}
+.sizes {
+    float: right;
+    color: #999;
+    text-decoration: none;
+    padding: 3px 4px 0 4px;
+    border-top: 1px solid #999;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    display: inline-block;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13px;
+    margin-bottom: -4px;
+}
+.active {
+    color: #000;
+}
+h2 {
+    font: 18px/1.2 sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 1px;
+    color: #333;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+.sharelink {
+    font: 14px/1.2 sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 2px;
+    color: #333;
+    margin-right: 10px;
+
+}
+
+a:hover{
+    text-decoration:none!important;
+}
+
+.right {
+    margin-top: 11px;
+    display: block;
+    font: 14px/1.2 sans-serif;
+}
+.sharetip, .calltip {
+    
+    font: 14px/1.2 sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 1px;
+    color: #333;
+    position: absolute;
+    bottom: 80px;
+    right: 25px;
+    
+    padding: 8px 14px!important;
+    background: #fff;
+    text-align: center;
+    
+}
+.row {    
+    color: white;
+    opacity: 1;
+}
+#container-div {
+    z-index: 100;
+    position: relative;
+}
+#textTable {
+    height: 100%;
+    width: 100%;
+}
+.col-sm-12 {
+    height: 100%;
+}
+.row td {
+    font-size: 3vw;
+    line-height: 0px;
+    color: crimson;
+}
+@media screen and (max-width: 700px) {
+    #title {
+        bottom: 15%;
+    }
+    #title input {
+        height: 35px;
+    }
+    
+}
+#canvas {
+    z-index: 1!important;
+    position: fixed;
+}
+
+
+@media screen and (max-width: 800px) {
+    textarea {
+        font-size: 12px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .popup a {
+        font-size: 12px;
+    }
+    .popup .right {
+        font-size: 12px;
+        margin-top: 6px;
+    }
+    .popup h2 {
+        font-size: 16px;
+    }
+    #action img {
+        max-height: 80px;
+    }
+
+    .sharetip {
+        bottom: 80px;
+        right: 27px;
+        font-size: 12px;
+        
+        padding: 9px!important;
+    }
+
+    
+}
+@media screen and (max-width: 600px) {
+    textarea {
+        font-size: 10px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .popup a {
+        font-size: 10px;
+    }
+    .popup .right {
+        font-size: 10px;
+        margin-top: 3px;
+    }
+    .popup h2 {
+        font-size: 14px;
+    }
+    #action img {
+        max-height: 60px;
+    }
+
+    .sharetip {
+        bottom: 60px;
+        right: 22px;
+        font-size: 8px;
+        width: 69px;
+        padding: 5px!important;
+    }
+}
+@media screen and (max-width: 450px) {
+    textarea {
+        font-size: 8px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        height: 50px;
+    }
+    .popup a {
+        font-size: 8px;
+    }
+    .popup .right {
+        font-size: 8px;
+        margin-top: 1px;
+    }
+    .popup h2 {
+        font-size: 12px;
+    }
+    #action img {
+        max-height: 45px;
+    }
+
+    .sharetip {
+        bottom: 45px;
+        right: 14px;
+        font-size: 7px;
+        width: 55px;
+        padding: 3px!important;
+    }
+}
+
+.imageOverlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 90;
+    pointer-events: none;
+}
+
+.imageOverlay img {
+    width: 100%!important;
+    height: 100%!important;
+}
+
+.imageOverlay a {
+    pointer-events: none;
+    cursor: default;
+}
+
+#container-div {
+    pointer-events: none;
+}
+
+
+#redArea1,#redArea2,#redArea3,#redArea4
+{    
+    pointer-events: none;
+}
+
+.textAreaDiv {
+    pointer-events: none;
+}
