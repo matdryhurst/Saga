@@ -1,0 +1,21 @@
+html, body {margin: 0; padding: 0; width: 100%; height: 100%; font: 18px/1.2 sans-serif; letter-spacing: 1px; color: #333;}
+a {text-decoration: none; color: #333;}
+#image {width: 100%; cursor: url(http://call.hollyherndon.com/img/sund.png), default;}
+#loader {cursor: url(http://call.hollyherndon.com/img/sund.png), default;}
+#action {position: absolute; z-index: 2; right: 4px; bottom: 0; color: #fff; line-height: 32px; text-decoration: none; font-family: sans-serif; border: 0; outline: 0;}
+.share {margin-right: 2px;}
+
+/* .share {position: absolute; z-index: 2; right: 42px; bottom: 0; color: #fff; line-height: 32px; text-decoration: none; font-family: sans-serif;} */
+a img {border: 0; outline: 0;}
+/* .call {position: absolute; z-index: 2; right: 4px; bottom: 0; color: #fff; line-height: 32px; text-decoration: none; font-family: sans-serif; }     */
+.popup {position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 2000;}
+.inner {width: 440px; height: 150px; margin: 140 auto; padding: 18px; background: rgba(255,255,255,1); position: relative;}
+textarea {display: block; width: 420px; height: 50px; padding: 6px; font: 14px/1.2 sans-serif; letter-spacing: 1px; color: #333; margin-top: 0px; border: 1px solid #999; margin-top: 4px; margin-bottom: 10px;}
+.close {position: absolute; top: 0; right: 5px; text-decoration: none;}
+.sizes {float: right; color: #999;text-decoration: none;padding: 3px 4px 0 4px;border-top: 1px solid #999;border-left: 1px solid #999;border-right: 1px solid #999;display: inline-block; font-family: sans-serif; font-size: 13px; margin-bottom: -4px;
+}
+.active {color: #000;} 
+h2 {font: 18px/1.2 sans-serif; letter-spacing: 1px; color: #333; font-weight: normal; margin: 0; padding: 0;}
+.sharelink {font: 14px/1.2 sans-serif; letter-spacing: 1px; color: #333; margin-right: 10px;}
+.right {margin-top: 11px; display: block; font: 14px/1.2 sans-serif;}
+.sharetip, .calltip {display: block; display: none; font: 14px/1.2 sans-serif; letter-spacing: 1px; color: #333; position: absolute; bottom: 10px; right: 90px; padding: 8px 14px; background: #fff;}
