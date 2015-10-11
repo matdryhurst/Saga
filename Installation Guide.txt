@@ -1,0 +1,48 @@
+Saga.city Smart Embeds Installation Guide & Setup Instructions
+
+=== Saga.city Smart Embeds ===
+Contributors: fawadrashid
+Tags: Smart embeds
+
+Saga is an art project exploring website specific expression online.
+
+== Installation ==
+
+1. Copy all files in a subfolder or the root of your webserver.
+2. Make a new mysql database in your mysql server using phpmyadmin or another mysql management tool/console. Import the sql script sagacity_smartembed.sql into your newly created database.
+3. Edit the file database.php which is placed in your application in application/config. Change the database hostname, username and password to point to your newly created database.
+4. Copy the database.php file to the folder /application/config/development as well. Make sure the file has the correct database credentials.
+5. Make sure your webserver supports mod_rewrite. You may need to enable support for it on your webserver.
+6. Next up locate your apache httpd-vhosts.conf or your httpd.conf file. Depending on your environment and operating system the location and format of this file may vary. You will need to edit this file and point the DocumentRoot to the location of the public folder located within the application.
+7. Make sure the public folder and application/modules/embedcontent/templates folders have adequate permission as the templates are created in these folders. Set permissions on these folders something like 755
+8. Login credentials for administrative backend are u:admin@smartmbeds.com p:123. Url for administrative panel is http://<your host address>/admin/embeds/templates
+9. The application has been tested and development on PHP 5.4 & MySQL 5.6.20
+10. Please ensure that your webserver is setup to handle file uploads with size at least 500MB as embed templates can be very large. The max_upload_size and max_post_size size are typically found in php.ini and can be set there. 
+
+
+== Frequently Asked Questions ==
+TODO
+
+=== Where can I get more help? ===
+
+Please get in touch with us on Twitter (@matdryhurst).
+
+== Screenshots ==
+
+TODO
+
+== Changelog ==
+
+TODO
+
+== Contributors ==
+
+* [fawadrashid](http://www.ndataconsulting.com/)
+* [jawadrashid](http://www.ndataconsulting.com/)
+* [asadaijazarain](http://www.ndataconsulting.com/)
+
+
+== Contributing ==
+
+We'd welcome contributions from anyone else working with the Saga-city Smart embeds project.
+Fork the project, submit issues, get in touch by whatever means.
