@@ -35,23 +35,7 @@ CREATE TABLE IF NOT EXISTS `bf_activities` (
   `deleted` tinyint(12) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8;
 
---
--- Dumping data for table `bf_activities`
---
 
-INSERT INTO `bf_activities` (`activity_id`, `user_id`, `activity`, `module`, `created_on`, `deleted`) VALUES
-(6, 2, 'logged in from: 127.0.0.1', 'users', '2015-10-06 18:38:24', 0),
-(7, 2, 'Created record with ID: 1 : 127.0.0.1', 'templates', '2015-10-06 18:54:19', 0),
-(8, 2, 'Created record with ID: 1 : 127.0.0.1', 'embedcontent', '2015-10-06 19:06:51', 0),
-(9, 2, 'logged in from: 127.0.0.1', 'users', '2015-10-07 13:35:07', 0),
-(10, 2, 'Created record with ID: 2 : 127.0.0.1', 'templates', '2015-10-07 13:40:08', 0),
-(11, 2, 'Created record with ID: 2 : 127.0.0.1', 'embedcontent', '2015-10-07 13:42:37', 0),
-(12, 2, 'Created record with ID: 3 : 127.0.0.1', 'templates', '2015-10-07 14:23:03', 0),
-(13, 2, 'Created record with ID: 3 : 127.0.0.1', 'embedcontent', '2015-10-07 14:24:01', 0),
-(14, 2, 'Created record with ID: 4 : 127.0.0.1', 'templates', '2015-10-07 14:40:48', 0),
-(15, 2, 'Created record with ID: 4 : 127.0.0.1', 'embedcontent', '2015-10-07 14:41:54', 0),
-(16, 2, 'Created record with ID: 5 : 127.0.0.1', 'templates', '2015-10-07 15:19:15', 0),
-(17, 2, 'Created record with ID: 5 : 127.0.0.1', 'embedcontent', '2015-10-07 15:19:29', 0);
 
 -- --------------------------------------------------------
 
@@ -801,12 +785,6 @@ CREATE TABLE IF NOT EXISTS `bf_template` (
   `modified_on` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00'
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `bf_template`
---
-
-INSERT INTO `bf_template` (`id`, `name`, `filename`, `created_on`, `modified_on`) VALUES
-(5, 'Saga One', 'Saga_One.zip', '2015-10-07 10:19:14', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 
