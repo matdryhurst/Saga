@@ -1,8 +1,8 @@
-Saga.city Smart Embeds Installation Guide & Setup Instructions
+Saga Installation Guide & Setup Instructions
 
-=== Saga.city Smart Embeds ===
+=== Saga ===
 Contributors: fawadrashid
-Tags: Smart embeds
+Tags: Saga
 
 Saga is an art project exploring website specific expression online.
 
@@ -44,5 +44,5 @@ TODO
 
 == Contributing ==
 
-We'd welcome contributions from anyone else working with the Saga-city Smart embeds project.
+We'd welcome contributions from anyone else working with the Saga project.
 Fork the project, submit issues, get in touch by whatever means.
