@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Call – Holly Herndon</title>
+  <title>Saga</title>
   
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="800">
@@ -16,10 +16,10 @@
   <meta name="description" content="Saga is an art project exploring website specific expression online"/>
   <meta property="og:locale" content="en_US" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Sa-ga.city - Smart Embeds" />
+  <meta property="og:title" content="Saga" />
   <meta property="og:description" content="Saga is an art project exploring website specific expression online" />
   <meta property="og:url" content="<?php echo base_url(uri_string()); ?>" />
-  <meta property="og:site_name" content="Sa-ga.city - Smart Embeds" />
+  <meta property="og:site_name" content="Saga" />
   <meta property="og:image" content="<?php echo base_url(uri_string()). 'images/saga-logo-white.png'; ?>" />
 
   <style>

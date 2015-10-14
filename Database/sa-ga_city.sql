@@ -681,7 +681,7 @@ INSERT INTO `bf_settings` (`name`, `module`, `value`) VALUES
 ('site.show_profiler', 'core', '0'),
 ('site.status', 'core', '1'),
 ('site.system_email', 'core', 'admin@mybonfire.com'),
-('site.title', 'core', 'Smart Embeds'),
+('site.title', 'core', 'Saga'),
 ('smtp_host', 'email', ''),
 ('smtp_pass', 'email', ''),
 ('smtp_port', 'email', ''),
