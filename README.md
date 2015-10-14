@@ -1,6 +1,6 @@
 # Saga
 
-Read more about Saga here: dismagazine.com/issues/73345/mathew-dryhurst-data-sagacity-and-site-specificity/
+[Read more about Saga here] (http://dismagazine.com/issues/73345/mathew-dryhurst-data-sagacity-and-site-specificity/)
 
 
 Saga.city Smart Embeds Installation Guide & Setup Instructions
