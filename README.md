@@ -3,12 +3,12 @@
 [Read more about Saga here] (http://dismagazine.com/issues/73345/mathew-dryhurst-data-sagacity-and-site-specificity/)
 
 
-Saga.city Smart Embeds Installation Guide & Setup Instructions
+Saga Installation Guide & Setup Instructions
 
-=== Saga.city Smart Embeds ===
+=== SAGA ===
 
 Contributors: matdryhurst, fawadrashid
-Tags: Smart embeds
+Tags: Saga
 
 Saga is an art project exploring website specific expression online.
 

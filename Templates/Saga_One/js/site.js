@@ -49,8 +49,8 @@
   var shareClicked = false;
 
   var movieArray = [
-      'http://dqvf9djey1l3y.cloudfront.net/Saga_demo.mp4',
-      'http://dqvf9djey1l3y.cloudfront.net/Saga_two.mp4',
+      'media/white.mov',
+      'media/red.mov','media/pink.mov','media/black.mov',
       
   ];
   //      pop.webpage({
@@ -64,251 +64,153 @@
       0: [{
           'eventName': 'footnotereplace',
           'options': {
-              start: 1,
-              end: 3,
-              text: "Hello Dis ppl (Alejandro ;) )",
-              target: "redArea1"
-          }
-
-      },
-      {
-          'eventName': 'image',
-          'options': {
-              start: 1,
-              end: 3,
-               src: "img/red_overlay.png",
-              text: "",
-              target: "imageOverlayBack"
-          }
-
-      },{
-          'eventName': 'image',
-          'options': {
-              start: 4,
-              end: 6,
-               src: "img/red_overlay_egg.png",
-              text: "",
-              target: "imageOverlayBack"
-          }
-
-      },
-       {
-          'eventName': 'footnotereplace',
-          'options': {
-              start: 4,
-              end: 6,
-              text: "Proud to share this with you",
+              start: 0,
+              end: 1,
+              text: "I",
               target: "redArea2"
           }
 
       },
       {
-          'eventName': 'footnotereplace',
-          'options': {
-              start: 6,
-              end: 8,
-              text: "Be sure to check out video #2",
-              target: "redArea2"
-          }
-
-      },
-      
-      {
-          'eventName': 'footnotereplace',
-          'options': {
-              start: 35,
-              end: 37,
-              text: "WTF",
-              target: "redArea1"
-          }
-
-      },
-       {
-          'eventName': 'footnotereplace',
-          'options': {
-             start: 101,
-              end: 104,
-              text: "3:57 PM 3/15/15 ",
-              target: "redArea1"
-          }
-      // }
-      },{
           'eventName': 'image',
           'options': {
-              start: 62,
-              end: 66,
-              href: "#",
-              src: "img/sagaghostred.png",
-              text:"",
-              target: "imageOverlayBack"
-          }
-
-      },
-      {
-          'eventName': 'image',
-          'options': {
-             start: 101,
-              end: 105,
-              src: "img/ClockWidget.gif",
+              start: 1,
+              end: 5,
+               src: "img/expressions/positive/love.png",
               text: "",
               target: "imageOverlayFront"
           }
-      // }
-      },
-       {
-          'eventName': 'image',
-          'options': {
-              start: 90,
-              end: 96,
-              href: "#",
-              src: "img/handswhite.png",
-              text:"",
-              target: "imageOverlayBack"
-          }
 
-      },{
-          'eventName': 'image',
-          'options': {
-              start: 91,
-              end: 96.5,
-              href: "#",
-              src: "img/red_dot.png",
-              text:"",
-              target: "imageOverlayFront"
-          }
-
-      },
-      
-      {
-          'eventName': 'image',
-          'options': {
-              start: 48,
-              end: 50,
-              href: "#",
-              src: "img/silencered.png",
-              text:"",
-              target: "imageOverlayFront"
-          }
-
-      }, 
+    
+     },
+     
      {
-          'eventName': 'image',
-          'options': {
-              start: 82,
-              end: 84,
-              href: "#",
-              src: "img/templates.png",
-              text:"",
-              target: "imageOverlayFront"
-          }
-
-      }, {
-          'eventName': 'image',
-          'options': {
-              start: 84,
-              end: 88,
-              href: "#",
-              src: "img/templates5.png",
-              text:"",
-              target: "imageOverlayBack"
-          }
-
-      }, {
-          'eventName': 'image',
-          'options': {
-              start: 86,
-              end: 89,
-              href: "#",
-              src: "img/templates3.png",
-              text:"",
-              target: "imageOverlayFront"
-          }
-
-      }, {
           'eventName': 'footnotereplace',
           'options': {
-              start: 105,
-              end: 115,
-              href: "#",
-           
-              text:"To embed or share click SAGA logo",
+              start: 1,
+              end: 2,
+              text: "GO",
               target: "redArea2"
           }
+       
 
-      },
-      {
-          'eventName': 'image',
-          'options': {
-              start: 115,
-              end: 118,
-              href: "#",
-              src: "img/eggshadow.png",
-              text:"",
-              target: "imageOverlayFront"
-          }
 
-      }
-      ,
-      {
+
+ },
+     
+     {
           'eventName': 'footnotereplace',
           'options': {
-              start: 115,
-              end: 118,
-              href: "#",
-           
-              text:"xx Mat",
-              target: "redArea1"
+              start:2,
+              end: 3,
+              text: "WHERE",
+              target: "redArea2"
           }
+       
 
-      },
-      {
-          'eventName': 'image',
+          
+          },
+     
+     {
+          'eventName': 'footnotereplace',
           'options': {
-              start: 19,
-              end:22,
-              href: "http://mathewdryhurst.com",
-              src: "",
-              text: "",
-              target: "imageOverlayFront"
+              start:3,
+              end: 4,
+              text: "IT",
+              target: "redArea2"
           }
+       
+
+},
+     
+    {
+          'eventName': 'footnotereplace',
+          'options': {
+              start: 4,
+              end: 5,
+              text: "GOES",
+              target: "redArea2"
+          }
+          
+        
+                   
+        
+      
+      
 
       }],
       // ],
       1: [{
           'eventName': 'footnotereplace',
           'options': {
-              start: 0,
-              end: 4,
+              start: 1,
+              end: 5,
               text: "#2",
-              target: "redArea1"
+              target: "redArea2"
           }
+           },
+      {
+          'eventName': 'image',
+          'options': {
+              start: 0,
+              end: 5,
+               src: "img/expressions/negative/negativelink.png",
+              text: "",
+              target: "imageOverlayFront"
+          }
+
+
+          
+          
       }],
       2: [{
+          'eventName': 'image',
+          'options': {
+              start: 0,
+              end: 5,
+              src: "img/expressions/negative/no.png",
+              text: "",
+              target: "imageOverlayFront"
+          }
+          },
+      {
           'eventName': 'footnotereplace',
           'options': {
               start: 1,
-              end: 4,
-              text: "",
-              target: "redArea1"
-          }
+              end: 5,
+              text: "#3",
+              target: "redArea2"          }
+          
+          
+          
       }],
       3: [{
           'eventName': 'image',
           'options': {
-              start: 1,
-              end: 4,
-              href: "http://mathewdryhurst.com",
-              src: "img/peace.png",
-              text: "DRUMBEAT",
-              target: "redArea1"
+              start: 0,
+              end: 5,
+              href: "",
+              src: "img/expressions/negative/negativelink.png",
+              text: "",
+              target: "imageOverlayFront"
           }
+          
+          },
+      {
+          'eventName': 'footnotereplace',
+          'options': {
+              start: 1,
+              end: 5,
+              text: "#4",
+              target: "redArea2"          }
+          
+          
       }]
-
       //   {'eventName':'webpage',
       //     'options':{
       //                start: 1,
       //                end: 20,
-      //                src: "http://www.ndataconsulting.com",
+      //                src: "http://mathewdryhurst.com",
       //                id: "webpages-a",
       //                target: "footnotediv"
       //               }
@@ -396,12 +298,12 @@
           //$('#myElement').show();
           //$('#responsive-div').hide();
           movieArray = [
-              'http://dqvf9djey1l3y.cloudfront.net/Saga_demo_tiny.mp4',
-              'http://dqvf9djey1l3y.cloudfront.net/Saga_two_tiny.mp4',
+              'media/white.mov',
+      'media/red.mov','media/pink.mov','media/black.mov',
               
           ];
           var player = $("#player");
-          player.find("source").attr("src", "media/Saga_demo_tiny.mp4");
+          player.find("source").attr("src", "media/white.mov");
           //$('#redArea1,#redArea2,#redArea3,#redArea4').hide();
           //player.play();
           /*jwplayer("myElement").setup({

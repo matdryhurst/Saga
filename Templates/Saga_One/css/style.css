@@ -2,47 +2,40 @@
 
 #redArea1 {
 padding-top: 1.5em;
-font-family: "arial narrow";font-size: 10vw;
-line-height: 12vw;
-font-weight: 300;
-letter-spacing: 4px;
+font-family: 'Work Sans', sans-serif;
+font-size: 8vw;
+line-height: 9vw;
 color: white;
  -webkit-text-fill-color: white;
 -webkit-text-stroke: 2px black;
 }
 
 
-#redArea2{font-family: "arial narrow";
+#redArea2{font-family: 'Work Sans', sans-serif;
 */border: 6px solid white;
 */background-color: rgba(255,0,0,0.7);
-font-size: 10vw;
-line-height: 12vw;
-font-weight: 300;
-letter-spacing: 4px;
+font-size: 20vw;
 color: white;
   padding-top: 0.5em;
  -webkit-text-fill-color: white;
--webkit-text-stroke: 2px black;position:absolute; left:-40px;top:-30px;}
+-webkit-text-stroke: 2px black;/*position:absolute; left:-40px;top:-30px;*/}
 
-#redArea3{font-family: "arial narrow";
+#redArea3{font-family: 'Work Sans', sans-serif;
 */border: 6px solid white;
 */background-color: rgba(255,0,0,0.7);
-font-size: 10vw;
+font-size: 8vw;
 
 font-weight: 300;
 */font-family:cursive;
-letter-spacing: 4px;
 color: white;
  -webkit-text-fill-color: white;
 -webkit-text-stroke: 2px red;*/text-shadow: 2px 2px 28px rgba(0, 0, 0, 1);}
 
-#redArea4{font-family: "arial narrow";
+#redArea4{font-family:'Work Sans', sans-serif;
 */border: 6px solid white;
 */background-color: rgba(255,0,0,0.7);
-font-size: 10vw;
-line-height: 12vw;
-font-weight: 300;
-letter-spacing: 4px;
+font-size: 8vw;
+line-height: 9vw;
 color: white;
  -webkit-text-fill-color: white;
 -webkit-text-stroke: 2px black;position: absolute;
@@ -196,8 +189,8 @@ a:hover{
     letter-spacing: 1px;
     color: #333;
     position: absolute;
-    bottom: 80px;
-    right: 25px;
+    bottom: 75px;
+    right: 18px;
     
     padding: 8px 14px!important;
     background: #fff;
@@ -262,8 +255,8 @@ a:hover{
     }
 
     .sharetip {
-        bottom: 80px;
-        right: 27px;
+        bottom: 75px;
+        right: 18px;
         font-size: 12px;
         
         padding: 9px!important;
