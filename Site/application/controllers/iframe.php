@@ -84,15 +84,19 @@ class IFrame extends MX_Controller
 		
 		$refer =  $this->agent->referrer();
 		$embedHistory=null;
+		$editedEmbed = null;
 		//echo $refer;
 		//getting embedName from url
 		$parsedURL=parse_url($iframe);
 		$explodedURL=explode("/",$parsedURL['path']);
 		$embedName=$explodedURL[2];
-		$data;
-		$singleEmbedHistory;
-
+		
 		$embed=$this->embedcontent_model->find_by('name',$embedName);
+		if ($embed == null){
+			//try the editedembed
+			$editedEmbed=$this->editedembed_model->find_by('name',$embedName);			
+			$embed=$this->embedcontent_model->find($editedEmbed->embedid);			
+		}
 
 
 		//echo $embed->name;
@@ -101,7 +105,7 @@ class IFrame extends MX_Controller
 
 		 }
 		 else{
-		 	//echo $embed;
+		 	//echo $embed;		 	
 		 	$array = array('pageurl' => $refer, 'embedid' => $embed->id);
 		 	
 		 	$embedHistory=$this->history_model
