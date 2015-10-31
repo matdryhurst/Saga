@@ -17,7 +17,7 @@ Saga is an art project exploring website specific expression online.
 == Installation ==
 
 1. Copy all files in a subfolder or the root of your webserver.
-2. Make a new mysql database in your mysql server using phpmyadmin or another mysql management tool/console. Import the sql script sagacity_smartembed.sql into your newly created database.
+2. Make a new mysql database in your mysql server using phpmyadmin or another mysql management tool/console. Import the sql script sa-gacity_smartembed.sql into your newly created database.
 3. Edit the file database.php which is placed in your application in application/config. Change the database hostname, username and password to point to your newly created database.
 4. Copy the database.php file to the folder /application/config/development as well. Make sure the file has the correct database credentials.
 5. Make sure your webserver supports mod_rewrite. You may need to enable support for it on your webserver.
