@@ -23,7 +23,7 @@ Saga is an art project exploring website specific expression online.
 5. Make sure your webserver supports mod_rewrite. You may need to enable support for it on your webserver.
 6. Next up locate your apache httpd-vhosts.conf or your httpd.conf file. Depending on your environment and operating system the location and format of this file may vary. You will need to edit this file and point the DocumentRoot to the location of the public folder located within the application.
 7. Make sure the public folder and application/modules/embedcontent/templates folders have adequate permission as the templates are created in these folders. Set permissions on these folders something like 755
-8. Login credentials for administrative backend are u:admin@smartmbeds.com p:123. Url for administrative panel is http://<your host address>/admin/embeds/templates
+8. Login credentials for administrative backend are u:admin@smartembeds.com p:123. Url for administrative panel is http://<your host address>/admin/embeds/templates
 9. The application has been tested and development on PHP 5.4 & MySQL 5.6.20
 10. Please ensure that your web server is setup to handle file uploads with size at least 500MB as embed templates can be very large. The max_upload_size and max_post_size size are typically found in php.ini and can be set there. 
 
