@@ -25,7 +25,7 @@ Saga is an art project exploring website specific expression online.
 7. Make sure the public folder and application/modules/embedcontent/templates folders have adequate permission as the templates are created in these folders. Set permissions on these folders something like 755
 8. Login credentials for administrative backend are u:admin@smartembeds.com p:123. Url for administrative panel is http://<your host address>/admin/embeds/templates
 9. The application has been tested and development on PHP 5.4 & MySQL 5.6.20
-10. Please ensure that your web server is setup to handle file uploads with size at least 500MB as embed templates can be very large. The max_upload_size and max_post_size size are typically found in php.ini and can be set there. 
+10. Please ensure that your web server is setup to handle file uploads with size at least 500MB as embed templates can be very large if you choose to host all the content on your own server. The max_upload_size and max_post_size size are typically found in php.ini and can be set there. 
 
 ==USAGE==
 
