@@ -42,6 +42,8 @@
 
     */
 
+$('player').on('contextmenu', function(e) {e.preventDefault();}); 
+
   var played = false;
   var pop;
   var movieIndex = 0;
